@@ -30,11 +30,11 @@ body {
 
 .cabecalho {
     padding: 2% 0% 0% 15%;
-    position: fixed;
-    width: 100%;
 }
 .cabecalho_menu {
     display: flex;
+    position: fixed;
+    width: 100%;
     gap: 80px;
 }
 .cabecalho_link {
@@ -157,6 +157,7 @@ span {
     .apresentacao {
         flex-direction: column-reverse;
         padding: 5%;
+        justify-content: space-around;
     }
     .apresentacao__conteudo {
         width: auto;

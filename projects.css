@@ -64,4 +64,20 @@
   }
 
 
-  
+  @media (max-width: 1200px) {
+    .projects {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .card {
+        padding: 5px 30px;
+
+    }
+    .card p {
+        margin: 10px;
+    }
+    .skills-h5 {
+        margin: 10px;
+    }
+  }

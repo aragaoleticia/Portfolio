@@ -1,0 +1,67 @@
+
+.projects{
+    padding: 0% 15%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.cards {
+    flex-direction: column;
+}
+.card {
+    border: 2px solid var(--cor-roxa);
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 15%;
+  }
+
+.card p {
+    margin: 20px;
+}
+
+  .card a {
+    color: var(--cor-roxa);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .card a:hover {
+    text-decoration: underline;
+  }
+
+
+  .skills {
+    padding: 5px;
+    width: 40%;
+  }
+
+.skills-h5 {
+    font-size: 30px;
+    margin-bottom: 15%;
+    color: var(--cor-roxa);
+}
+
+  .skills-list-item {
+    list-style: none;
+    padding: 10px 2px;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+
+  .skills-list-item img {
+    width: 30px;
+  }
+
+
+  

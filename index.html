@@ -3,81 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio Web</title>
+    <title>Leticia Aragão</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="aboutme.css">
+    <link rel="stylesheet" href="skills.css">
     <link rel="stylesheet" href="projects.css">
+    
 </head>
 <body>
     <header class="cabecalho">
-        <nav class="cabecalho_menu">
+        <div class="cabecalho_menu">
             <a class="cabecalho_link" href="#section1">Home</a>
-            <a class="cabecalho_link" href="#section2">Projetcs</a>
-        </nav>
-    </header>
-    <section id="section1" class="apresentacao">
-        <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Hello, I'm Leticia Aragão</h1>
-            <p class="apresentacao__conteudo__texto">and I build things for web.
-                You may see more about my work or write to me on the links </p>
-            <div class="apresentacao__links">
-                <h2 class="apresentacao__links__subtitulo">Access my networks:</h2>
-                <a class="botao__links"  href="https://github.com/aragaoleticia">
-                    <img src="assets/icon.github.png" alt="imagem_github">
-                    Github
-                </a>
-                <a class="botao__links"  href="https://www.linkedin.com/in/leticiaaragao121100/">
-                    <img src="assets/icon.linkedin.png" alt="imagem_linkedin">
-                    Linkedin
-                </a>
-            </div>
-        </section>
-        <img  class="imagem_programadora"  src="assets/leticia.jpeg" >
-    </section>   
-    <section id="section2" class="projects">
-        <div class="cards">
-            <div class="card">
-                <h3>Fokus Project</h3>
-                <p class="projects-card">Build a simple web application that helps users manage their time using the Pomodoro Technique.</p>
-                <a href="https://fokus-pomodoro-timer.vercel.app/">Focus</a>
-            </div>
-            <div class="card">
-                <h3>Task Swift</h3>
-                <p class="projects-card">This is a React project for managing tasks with drag-and-drop functionality and local storage support.</p>
-                <a href="https://taskswift-dnd.vercel.app/">TaskSwift</a>
-            </div>
+            <a class="cabecalho_link" href="#section2">About</a>
+            <a class="cabecalho_link" href="#section3">Skills</a>
+            <a class="cabecalho_link" href="#section4">Projetcs</a>
         </div>
-        <div class="skills">
-            <h5 class="skills-h5">Skills</h5>
+    </header>
+    <section id="section1" class="apresentacao page-section">
+        <img  class="imagem_programadora"  src="assets/leticia.jpeg" >
+        <div class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Hello, I'm Leticia Aragão</h1>
+            <p class="apresentacao__conteudo__texto">I'm a Front end Developer.  I enjoy building websites & web apps. My focus is React | JavaScript </p>
+                <div class="apresentacao__links">
+                    <a class="botao__links"  href="https://github.com/aragaoleticia">
+                        <img src="assets/icon.github.png" alt="imagem_github">
+                        Github
+                    </a>
+                    <a class="botao__links"  href="https://www.linkedin.com/in/leticiaaragao121100/">
+                        <img src="assets/icon.linkedin.png" alt="imagem_linkedin">
+                        Linkedin
+                    </a>
+                </div>
+                <div class="contact_conteudo">
+                    <a class="contact_item">
+                        <img src="assets/icons8-email-24.png" alt="">
+                        leticia.aragao00@gmail.com
+                    </a>
+                    <a class="contact_item">
+                        <img src="assets/icons8-call-50.png" alt="">
+                        +49 15207206176
+                    </a>
+                </div>
+        </div>
+    </section>   
+
+    <section id="section2" class="about_me page-section">
+        <div class="about_me_div">
+            <h3 class="about_me_title">About me</h3>
+            <p class="about_me_text">I'm brazilian, currently living in Berlin, Germnay.
+                Previously, I pursued a career in Nursing, and I decided to start my journey for programming/development.
+                I enrolled in an online course at Alura and learned about front end developer.
+                My core stack is React.js and JavaScript, also I'm familiar with Git for version control and have introductory experience in API integration.
+                Actively seeking intern opportunities to apply and further develop my skills, 
+                I'm eager to contribute and grow in the realm of Front-end development, leveraging my diverse background to bring a unique perspective to the tech industry.
+            </p>
+        </div>
+
+    </section>
+
+    <section id="section3" class="skills page-section">
+        <div class="skills_div">
+            <h5 class="skills-h5">My skills</h5>
             <ul class="skills-list">
                 <li class="skills-list-item">
-                    HTML5
-                    <img src="/assets/javascript.png"/>
+                    CSS
+                    <img src="/assets/icons8-css-96.png"/>
                 </li>
                 <li class="skills-list-item">
-                    CSS3
-                    <img src="/assets/css.png"/>
+                    HTML
+                    <img src="/assets/icons8-html-96.png"/>
                 </li>
                 <li class="skills-list-item">
-                    JavaScript
-                    <img src="/assets/javascript.png"/>
+                    JS
+                    <img src="/assets/icons8-javascript-96.png"/>
                 </li>
                 <li class="skills-list-item">
                     React
-                    <img src="/assets/react.png"/>
+                    <img src="/assets/icons8-react-200.png"/>
                 </li>
                 <li class="skills-list-item">
                     Git
-                    <img src="/assets/git.png"/>
+                    <img src="/assets/icons8-git-96.png"/>
                 </li>
             </ul>
         </div>
-    
     </section>
-   
-    
-    
+
+    <section id="section4" class="projects page-section">
+        <div class="cards">
+            <div class="card">
+                <div class="card_gif">
+                    <img src="assets/fokus-git-ok.gif" alt="fokus gif">
+                </div>
+                <div class="card_conteudo">
+                    <h3>Fokus Project</h3>
+                    <p class="projects-card">Build a simple web application that helps users manage their time using the Pomodoro Technique.</p>
+                    <a href="https://fokus-pomodoro-timer.vercel.app/"target="_blank">
+                        Focus
+                        <img src="assets/icons8-link-32.png" alt="icon link">
+                    </a>
+                    <ul class="card_list">
+                        <li class="card_list_item" >HTML</li>
+                        <li class="card_list_item" >JavaScript</li>
+                        <li class="card_list_item" >Git</li>
+                        <li class="card_list_item" >CSS</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card_gif">
+                    <img src="assets/taskswift-gif-ok.gif" alt="git taskswift-dnd">
+                </div>
+                <div class="card_conteudo">
+                    <h3>Task Swift</h3>
+                    <p class="projects-card">This is a React project for managing tasks with drag-and-drop functionality and local storage support.</p>
+                    <a href="https://taskswift-dnd.vercel.app/" target="_blank">
+                        TaskSwift
+                        <img src="assets/icons8-link-32.png" alt="icon link">
+                    </a>
+                    <ul class="card_list">
+                        <li class="card_list_item" >React.js</li>
+                        <li class="card_list_item" >JavaScript</li>
+                        <li class="card_list_item" >Git</li>
+                        <li class="card_list_item" >CSS</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer class="rodape">
-        <p>Created by Leticia</p>
+        <p> © [2024] [Leticia Aragão]. All rights reserved.<br>
+            View the source code on GitHub: <a href="https://github.com/aragaoleticia/Portfolio" target="_blank">https://github.com/aragaoleticia/Portfolio</a></p>
     </footer>
+
 </body>
 </html>

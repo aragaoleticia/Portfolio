@@ -1,0 +1,40 @@
+.about_me {
+    padding: 2% 15%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--text-font);
+}
+
+.about_me_div {
+    text-align: center;
+    width: 60%;
+    
+}
+
+.about_me_title {
+    font-size: 1.5rem;
+    color: var(--cor-roxa);
+}
+
+.about_me_text {
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+@media (max-width: 1200px) {
+    .about_me {
+        padding: 0%;
+        height: 90vh;
+    }
+    
+    .about_me_text {
+        font-size: 16px;
+    }
+    .about_me_div {
+        width: auto;
+    }
+}
